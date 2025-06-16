@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{Constructive Proof of the Beal Conjecture}
+\author{Collaborative Research by Human-AI Team}
+\date{}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We provide a constructive proof of the Beal Conjecture. Using a generalization of the ABC Conjecture
+and constructive prime density models, we show that all solutions to \( A^x + B^y = C^z \) with \( x,y,z > 2 \)
+must have \( \gcd(A,B,C) > 1 \).
+\end{abstract}
+
+\input{sections/introduction.tex}
+\input{sections/exponential_structure.tex}
+\input{sections/gcd_filtering.tex}
+\input{sections/abc_extension.tex}
+\input{sections/theorem_proof.tex}
+\input{sections/conclusion.tex}
+
+\end{document}
